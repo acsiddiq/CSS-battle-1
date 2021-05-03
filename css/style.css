@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*******************
+	test-1 css
+*******************/
+.test-1 {
+	background: #E3516E;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.part-1 {
+	width: 100px;
+	height: 100px;
+	background: #51B5A9;
+	border-radius: 100px 0px 0px 0px;
+	position: absolute;
+	left: 29%;
+	top: 33%;
+}
+.part-2 {
+	width: 100px;
+	height: 100px;
+	background: #FADE8B;
+	border-radius: 100px 0px 0px 0px;
+	position: absolute;
+	left: 49%;
+	top: 33%;
+	transform: rotate(90deg);
+}
+.part-3 {
+	width: 100px;
+	height: 100px;
+	background: #F7F3D7;
+	border-radius: 100px 0px 0px 0px;
+	position: absolute;
+	left: 29%;
+	top: 53%;
+	transform: rotate(-90deg);
+}
+
+
